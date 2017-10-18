@@ -1,5 +1,19 @@
 #include<stdio.h>
 #include<stdlib.h>
+
+//People thought this problem is a bit hard to be called easy
+//I agree because of recursion
+
+//Logic was alright but probably not clean
+//Finding impossible solutions is basically rotting until no changes made
+//and then checking for a fresh orange. Similar logic with finding a full
+//infection.
+
+//Solution is slow though
+
+//PROBLEM URL: http://practice.geeksforgeeks.org/problems/rotten-oranges/0
+
+
 int main()
 {
 	//code
