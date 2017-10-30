@@ -4,6 +4,9 @@
 //which is equal to b. Also other stuff such as associativity and commutitivity
 //of xor
 
+//This could be a medium problem if O(n) is required. I can easily see
+//an nlogn solution where you use your favourite sort and then check
+
 //PROBLEM URL: http://practice.geeksforgeeks.org/problems/single-number/0
 
 int main()
