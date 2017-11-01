@@ -6,6 +6,8 @@ using namespace std;
 //Not difficult if you understand dynamic programming. Since this was 
 //my first time seeing this. It was tough. Used a users solution.
 
+//Clearly a O(n) solution using O(n) space
+
 int main() {
     int T;
     cin >> T;
