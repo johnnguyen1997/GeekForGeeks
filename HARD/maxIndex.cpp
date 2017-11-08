@@ -3,6 +3,29 @@
 #include <vector>
 using namespace std;
 
+//PROBLEM URL: http://practice.geeksforgeeks.org/problems/maximum-index/0
+
+//TODO: Show its complexity
+
+//The goal is O(n) time. O(n^2) is trivial using double for-loop of
+//O(n) and O(n)
+
+/*Notes: The main logic is to sweep the array twice to find min and search values.
+In the first example, we don't care about large values.
+
+In the example 3 5 4 2. We don't care about 5 or 4 because if there is a number
+larger than 4, it's larger than 3.
+
+The second sweep is to check for latest value which is larger than or
+equal to the first/0 index.
+
+The very worst case is something like 5 4 3 2 1. Where the largest value 
+happens to be the first value.
+
+The left sweep is takes O(n). The right sweep is also O(n). Yet the worst case
+when we combine the two sweeps
+*/
+
 struct Point {
     int position;
     int value;

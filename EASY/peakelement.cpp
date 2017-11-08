@@ -4,6 +4,12 @@ you need to write your solution in the form of Function(s) only.
 Driver Code to call/invoke your function would be added by GfG's Online Judge.*/
 
 
+//PROBLEM URL: http://practice.geeksforgeeks.org/problems/peak-element/1
+//Trivial solution. Check go through the entire array and return 
+//if it a peak. Check one side if corner or check both if not.
+
+
+
 /* The function should return the index of any
    peak element present in the array */
 int peak(int arr[], int n)
